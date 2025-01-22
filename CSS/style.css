@@ -203,6 +203,10 @@ label {
         align-items: center;
     }
 
+    header nav{
+        justify-content: center;
+        align-items: center;
+    }
     header nav ul {
         justify-content: center; 
         align-items: center;
@@ -222,7 +226,7 @@ label {
         text-align: center;
     }
 }
-/*responsive za mobitel ne mogu testirat na tabletu nez jel radi na tabletu odustajem*/
+/*responsive za mobitel ne mogu testirat na tabletu nez jel radi na tabletu odustajem, li se nece centrirat*/
 @media screen and (max-width: 480px) {
     header {
         flex-direction: column;
