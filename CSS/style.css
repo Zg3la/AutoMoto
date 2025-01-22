@@ -215,7 +215,7 @@ label {
         align-items: center;
     }
     header nav li{
-        justify-self: center;
+        justify-content: center;
         align-items: center;
     }
 
@@ -225,8 +225,7 @@ label {
         text-align: center; 
     }
 
-    .articleWpicture h2,
-    .articleWpicture a {
+    .articleWpicture h2,.articleWpicture a {
         text-align: center; 
         margin: 8px 0; 
     }
@@ -241,7 +240,7 @@ label {
 }
 }
 
-/*responsive za mobitel ne mogu testirat na tabletu nez jel radi na tabletu odustajem, li se nece centrirat*/
+
 @media screen and (max-width: 480px) {
     header {
         flex-direction: column;
@@ -259,6 +258,11 @@ label {
         justify-content: center; 
         gap: 8px;
     }
+    header nav li{
+        justify-content: center;
+        align-items: center;
+    }
+
 
     main h1 {
         font-size: 20px;
@@ -271,8 +275,7 @@ label {
         text-align: center; 
     }
 
-    .articleWpicture h2,
-    .articleWpicture a {
+    .articleWpicture h2,.articleWpicture a {
         text-align: center; 
         margin: 6px 0; 
     }
