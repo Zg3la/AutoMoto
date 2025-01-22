@@ -205,6 +205,11 @@ label {
 
     header nav ul {
         justify-content: center; 
+        align-items: center;
+    }
+    header nav li{
+        justify-self: center;
+        align-items: center;
     }
 
     .articleWpicture {
