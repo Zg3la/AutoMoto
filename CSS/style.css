@@ -218,7 +218,7 @@ label {
         justify-content: center; 
         align-items: center;
         margin-right: auto;
-        
+        margin-left: auto;
     }
     header nav li{
         justify-content: center;
@@ -265,8 +265,9 @@ label {
     header nav ul {
         flex-direction: row;
         justify-content: center; 
-        gap: 8px;
-        margin-right:auto;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
     }
     header nav li{
         justify-content: center;
