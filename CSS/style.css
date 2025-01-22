@@ -194,6 +194,9 @@ label {
 #porukaFORM{
     text-align: center;
 }
+
+
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -201,7 +204,7 @@ label {
     }
 
     header nav ul {
-        justify-content: row;
+        justify-content: center; 
     }
 
     .articleWpicture {
@@ -214,7 +217,7 @@ label {
         text-align: center;
     }
 }
-
+/*responsive za mobitel ne mogu testirat na tabletu nez jel radi na tabletu odustajem*/
 @media screen and (max-width: 480px) {
     header {
         flex-direction: column;
@@ -228,7 +231,8 @@ label {
     }
 
     header nav ul {
-        flex-direction: row; 
+        flex-direction: row;
+        justify-content: center; 
         gap: 8px;
     }
 
@@ -243,11 +247,20 @@ label {
     }
 
     .articleWpicture img {
-        flex: 1 1 auto; 
+        max-width: 90%;
     }
 
     footer {
         font-size: 12px;
         padding: 8px;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        max-width: 300px; 
+        margin: 0 auto; 
+    }
+
+    textarea {
+        height: 100px; 
     }
 }
