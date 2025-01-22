@@ -232,13 +232,13 @@ label {
 
     .articleWpicture p {
         text-align: center; 
-
+    }
     footer {
         flex-direction: column;
         text-align: center;
     }
 }
-}
+
 
 
 @media screen and (max-width: 480px) {
@@ -301,8 +301,5 @@ label {
     textarea {
         height: 100px; 
     }
-    footer {
-        flex-direction: column;
-        text-align: center;
-    }
+    
 }
