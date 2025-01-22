@@ -222,6 +222,12 @@ label {
     .articleWpicture {
         flex-direction: column;
         align-items: center;
+        text-align: center;
+    }
+    .articleWsymbol{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     footer {
@@ -255,8 +261,14 @@ label {
     }
 
     .articleWpicture {
-        padding: 12px;
-        gap: 12px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .articleWsymbol{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .articleWpicture img {
