@@ -243,7 +243,7 @@ label {
 /*responsive za mobitel ne mogu testirat na tabletu nez jel radi na tabletu odustajem, li se nece centrirat*/
 @media screen and (max-width: 480px) {
     header {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         text-align: center;
         padding: 8px 16px;
@@ -258,7 +258,7 @@ label {
         justify-content: center; 
         gap: 8px;
     }
-    li{
+    header nav li{
         justify-content: center;
     }
 
