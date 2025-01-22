@@ -197,35 +197,7 @@ label {
 
 
 
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    header nav{
-        justify-content: center;
-        align-items: center;
-    }
-    header nav ul {
-        justify-content: center; 
-        align-items: center;
-    }
-    header nav li{
-        justify-self: center;
-        align-items: center;
-    }
-
-    .articleWpicture {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-    }
-}
 /*responsive za mobitel ne mogu testirat na tabletu nez jel radi na tabletu odustajem, li se nece centrirat*/
 @media screen and (max-width: 480px) {
     header {
