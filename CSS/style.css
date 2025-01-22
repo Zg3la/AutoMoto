@@ -301,4 +301,8 @@ label {
     textarea {
         height: 100px; 
     }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
