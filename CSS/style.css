@@ -217,7 +217,7 @@ label {
     }
     header nav li{
         justify-content: center;
-        
+        margin-right: 30px;
     }
 
     .articleWpicture {
