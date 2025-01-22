@@ -214,10 +214,11 @@ label {
         flex-direction: row;
         justify-content: center; 
         align-items: center;
+        margin-right: 30px;
     }
     header nav li{
         justify-content: center;
-        margin-right: 30px;
+        
     }
 
     .articleWpicture {
